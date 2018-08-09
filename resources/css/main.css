@@ -17,7 +17,7 @@ html {
 .topnav {
   grid-column: 1/13;
   grid-row: 1/2;
-  background-color: #485462;
+  background-color: #06c5ff;
   overflow: hidden;
   padding-right: 80px;
 }
