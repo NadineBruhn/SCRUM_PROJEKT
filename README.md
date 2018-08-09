@@ -1,2 +1,0 @@
-# SCRUM_PROJEKT
-scrum
