@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="resources/css/main.css"/>
+    <link rel="stylesheet" href="resources/css/mission.css"/>
+    <link rel="stylesheet" media='screen and (min-width: 320px) and (max-width: 736px)' href="resources/css/mobil.css"/>
+    <link rel="stylesheet" media='screen and (min-width: 320px) and (max-width: 736px)' href="resources/css/mobilMission.css"/>
+    <link rel="stylesheet" media='screen and (min-width: 1024px)' href="resources/css/main.css"/>
+    <link rel="stylesheet" media='screen and (min-width: 1024px)' href="resources/css/mission.css"/>
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="icon" href="resources/img/favicon.ico" sizes="16x16 32x32" type="image/png">
+    <title>Event centrum</title>
+  </head>
+  <body>
+<div id="Grid-container">
+
+<!-- MENU AREA -->
+<section class="topnav" id="menu">
+  <nav>
+  <a href="#">KONTAKT</a>
+  <a href="./Mission.html">MISSION</a>
+  <a href="#">EVENTS</a>
+  <a href="./index.html">FORSIDE</a>
+  <a href="javascript:void(0);" style="font-size:15px;"
+  class="icon" onclick="burgerMenu()"><i class="fas fa-bars"></i></a>
+ </nav>
+</section>
+<section id="logo">
+  <figure>
+    <a href="./index.html"><img src="resources/img/Logo_Large.png" alt=""></a>
+  </figure>
+</section>
+
+<!-- HEADER TEXT -->
+<section id="txt1">
+  <article>
+    <h1>INNOVATION</h1>
+  </article>
+</section>
+
+<!-- HEADER SLIDER IMAGE -->
+<section class="slideshow-container">
+  <figure class="mySlides">
+    <img src="resources/img/Slider-Image-01.jpg" alt="">
+  </figure>
+  <figure class="mySlides">
+    <img src="resources/img/Slider-Image-02.jpg" alt="">
+  </figure>
+  <figure class="mySlides">
+    <img src="resources/img/Slider-Image-03.jpg" alt="">
+  </figure>
+  <figure class="mySlides">
+    <img src="resources/img/Slider-Image-04.jpg" alt="">
+  </figure>
+  <a class="prev" onclick="plusSlides(-1)"><i class="fas fa-angle-left"></i></a>
+  <a class="next" onclick="plusSlides(1)"><i class="fas fa-angle-right"></i></a>
+</section>
+
+<!-- TEXT AREA -->
+<section id="item10">
+  <article>
+    <h2>MISSION STATEMENT</h2>
+    <p>Et hvert firma er en sammensætning af forudsætninger,
+      erfaringer, koncepter og mennesker. Vi hjælper dig med
+      at afklare styrker og svagheder i organisationen.</p>
+  </article>
+</section>
+
+<!-- TEXT AREA LEFT -->
+<section id="item11">
+  <article>
+    <h2>Helium Stick</h2>
+    <p>Helium stick er en enkel, effektiv øvelse.</p><br>
+    <p>Vejlederen arrangerer teammedlemmerne i to rækker, ca.
+       3 meter fra hinanden, mod hinanden.</p><br>
+    <p>Hun beder de teammedlemmer til at udvide deres pegefingeren
+      mod midten af linjerne, og derefter placerer en lang, lys
+      stick (såsom en pointer eller en dyvel stang) om de
+      udstrakte fingre.</p><br>
+  </article>
+</section>
+
+<!-- TEXT AREA RIGHT -->
+<section id="item12">
+  <article>
+    <h2>Blind Guide</h2>
+    <p>Blind guide øvelser er en måde at skabe tillid og fokus på
+      teamwork mellem personer.</p><br>
+    <p>En medarbejder er bind for øjnene, mens hans partner forsøger
+      at guide ham gennem et rum, hvor møblerne er blevet omarrangeret
+      kun bruger verbale signaler.</p><br>
+    <p>Blind guide er let for små grupper og kan gøres i en kort
+      periode, hvilket gør det let at inkorporere i en
+      travl hverdag..</p><br>
+  </article>
+</section>
+
+<!-- FOOTER AREA -->
+<!-- LEFT SIDE OF FOOTER -->
+<section id="item7">
+  <article>
+    <h3>KONTAKT OS</h3>
+    <p>Kontakt os for uddybende informationer om vore
+      arrangementer og events.</p><br>
+    <p>Du kan ringe, sende en email eller udfylde
+      kontaktformularen, så vender en af vore medarbejdere
+      tilbage til dig hurtigst muligt.</p><br>
+  </article>
+</section>
+
+<section id="item8">
+  <figure>
+    <img src="resources/img/gps.png" alt="">
+  </figure>
+  <figure>
+    <img src="resources/img/phone.png" alt="">
+  </figure>
+  <figure>
+    <img src="resources/img/mail.png" alt="">
+  </figure>
+</section>
+
+<section id="item9">
+  <article>
+    <h4>KONTAKT OS</h4>
+    <p>EventCentrum, Targets Allé, 4. 9000 Ballerup</p><br>
+    <h4>RING TIL OS PÅ</h4>
+    <p>+45 2234 5678 (+45 3365 6587 efter kl. 18.00)</p><br>
+    <h4>SKRIV TIL OS</h4>
+    <p>Send os en mail: info@EventCentrum.dk</p><br>
+  </article>
+</section>
+
+<!-- RIGHT SIDE OF FOOTER -->
+<section id="txtform">
+  <form name="myForm">
+        <legend>Send en besked</legend><br>
+        <input type="text" name="firstnavn" id="firstname" placeholder="Fulde navn:" value="" /><br/>
+        <input type="text" name="adresse" id="adresse" placeholder="Adresse:" value="" /><br/>
+        <input type="text" name="mail" id="mail" placeholder="Email:" value="" /><br />
+        <input type="checkbox" type="checkbox"/><label for="checkbox"> Jeg vil gerne ringes op</label>
+        <input type="tel" name="phonenumber" id="phonenumber" placeholder="Telefon:" value="" /><br/>
+        <textarea form="myForm" id="txtbox1" placeholder="Besked"></textarea>
+
+        <button class="bt1" type="button" onclick="validate()">Send besked</button>
+  </form>
+</section>
+
+</div>
+<!-- JS SCRIPT LINK-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="resources/js/script.js"></script>
+
+  </body>
+</html>
